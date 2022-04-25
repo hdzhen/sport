@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>锻炼计划</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sport.css">
+    <link rel="icon" href="img/sports.ico" type="image/x-icon"/>
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 logo">
+                <img src="img/sports-logo.png" alt="运动" title="运动">
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-nav hide-nav hidden-md hidden-lg">
+                <div class="mobile-menu-close">
+                    <div class="btn-close">
+                        <span class="glyphicon glyphicon-triangle-left"></span>收起
+                    </div>
+                </div>
+                <ul class="mobile-navigation">
+                    <li><a href="#">顶部</a></li>
+                    <li><a href="#fitNess">健身</a></li>
+                    <li><a href="#fatReduction">减脂</a></li>
+                    <li><a href="#otherItems">其他</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <nav id="navigation" class="hidden-sm hidden-xs">
+                    <ul id="main-nav" class="main-navigation">
+                        <li class="current"><a href="#">顶部</a></li>
+                        <li><a href="#fitNess">健身</a></li>
+                        <li><a href="#fatReduction">减脂</a></li>
+                        <li><a href="#otherItems">其他</a></li>
+                    </ul>
+                </nav>
+                <a href="#mobile-menu" class="visible-xs visible-sm mobile-menu-trigger">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div> <!-- //.row -->
+    </div>
+</header>
+<section id="top" class="content-section clearfix">
+    <div class="flexslider introduction-slider">
+        <ul class="slides">
+            <li class="flex-active-slide"
+                style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item; opacity: 0.982222;">
+                <div class="flex-caption section-overlay slide-caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/slide/slide.png" alt="slide-01">
+            </li>
+        </ul>
+    </div> <!-- //.flexslider -->
+</section>
+<section id="fitNess" class="content-section clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title left">撸铁</h2>
+            </div>
+            <div class="col-md-12">
+                <div class="ul-wapper">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#monday" role="tab" data-toggle="tab">星期一</a>
+                        </li>
+                        <li role="presentation"><a href="#wednesday" role="tab" data-toggle="tab">星期三</a></li>
+                        <li role="presentation"><a href="#friday" role="tab" data-toggle="tab">星期五</a></li>
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="monday"></div>
+                    <div role="tabpanel" class="tab-pane fade" id="wednesday"></div>
+                    <div role="tabpanel" class="tab-pane fade" id="friday"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="split split-1 content-section content-overlay parallax-section clearfix">
+    <div class="section-overlay">
+        <div class="container">
+            <div class="row fadeInUp">
+                <div class="text-center">
+                    <span class="counter-text">分割图</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="fatReduction" class="content-section clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title left">徒手</h2>
+            </div>
+            <div class="col-md-2">
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation"><a href="#fireFatPrimary" data-toggle="tab" role="tab">燃脂运动(初级)</a></li>
+                    <li role="presentation" class="active"><a href="#fireFatIntermediate" data-toggle="tab" role="tab">燃脂运动(中级)</a></li>
+                    <li role="presentation"><a href="#abdominalExercise" data-toggle="tab" role="tab">腹部锻炼</a></li>
+                    <li role="presentation"><a href="#pushUp" data-toggle="tab" role="tab">俯卧撑</a></li>
+                </ul>
+            </div>
+            <div class="col-md-10">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade" id="fireFatPrimary"></div>
+                    <div role="tabpanel" class="tab-pane fade in active" id="fireFatIntermediate"></div>
+                    <div role="tabpanel" class="tab-pane fade" id="abdominalExercise"></div>
+                    <div role="tabpanel" class="tab-pane fade" id="pushUp"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="split split-1 content-section content-overlay parallax-section clearfix">
+    <div class="section-overlay">
+        <div class="container">
+            <div class="row fadeInUp">
+                <div class="text-center">
+                    <span class="counter-text">分割图</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="otherItems" class="content-section clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title left">其他</h2>
+            </div>
+            <div class="itmes-box">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="image-box"><img src="img/sport/run.png" alt="推举" title="点击放大"></div>
+                        <div class="caption">
+                            <h3>跑步</h3>
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="media-heading">增强心肺<span class="label label-danger">15+</span></h4>
+                                    <p>前半程，常速跑</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="media-heading">燃脂
+                                        <span class="label label-danger">20+</span>
+                                        <span class="label label-primary">120-140</span>
+                                    </h4>
+                                    <p>后半程，控制心率</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="image-box"><img src="img/sport/arm.gif" alt="小手臂" title="点击放大"></div>
+                        <div class="caption">
+                            <h3>小手臂</h3>
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        手背腕屈
+                                        <span class="label label-danger">12</span>
+                                        <span class="label label-primary">4~6</span>
+                                        <span class="label label-success">60s</span>
+                                    </h4>
+                                    <p>手掌水平握住哑铃，掌心朝里。手腕向上屈伸</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        手心内屈
+                                        <span class="label label-danger">12</span>
+                                        <span class="label label-primary">4~6</span>
+                                        <span class="label label-success">60s</span>
+                                    </h4>
+                                    <p>手掌水平握住哑铃，掌心朝里。手腕往里屈</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        手腕垂侧屈
+                                        <span class="label label-danger">12</span>
+                                        <span class="label label-primary">4~6</span>
+                                        <span class="label label-success">60s</span>
+                                    </h4>
+                                    <p>手掌垂直握住哑铃，掌心朝前。手腕向前屈伸</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        手腕水平屈
+                                        <span class="label label-danger">12</span>
+                                        <span class="label label-primary">4~6</span>
+                                        <span class="label label-success">60s</span>
+                                    </h4>
+                                    <p>虎口垂直握住哑铃，掌心朝前。手腕左右屈伸</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <span>Design by hdzhen</span>
+    <span>Since 2021</span>
+</footer>
+<!--************************  引入JS  ***************************-->
+<!--先引入第三方js-->
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/sportData.js"></script>
+<script>
+    /**
+     * 加载健身数据
+     */
+    for (var day in sportData.fitness) {
+        for (var i = 0; i < sportData.fitness[day].length; i++) {
+            var sport = sportData.fitness[day][i]
+            var fitNess_html = '<div class="col-sm-6 col-md-4"><div class="thumbnail"><div class="image-box"><img src="' + sport.image + '" alt="' + sport.action + '" title="点击放大"></div><div class="caption"><h3>' + sport.action + '</h3><div class="tags btn-group"><span class="label label-danger">' + sport.position + '</span><span class="label label-primary">' + sport.count + '个</span><span class="label label-success">' + sport.times + '组</span></div><p>' + sport.content + '</p></div></div></div>';
+            $('#' + day).append(fitNess_html);
+        }
+    }
+    /**
+     * 加载燃脂数据
+     */
+    for (var levle in sportData.fatReduction) {
+        for (var j = 0; j < sportData.fatReduction[levle].items.length; j++) {
+            var action = sportData.fatReduction[levle].items[j]
+            var imgHtml = '';
+            if (action.image != undefined) {
+                imgHtml = '<img src="' + action.image + '" alt="' + action.action + '" title="点击放大">';
+            }
+            var action_html = '<div class="media"><div class="media-body"><h4 class="media-heading">' + action.action + '<span class="label label-primary">' + action.count + '</span></h4><p>' + action.content + '</p>' + imgHtml + '</div></div>';
+            $('#' + levle).append(action_html);
+        }
+        if (sportData.fatReduction[levle].tips) {
+            var tips_html = ' <div class="tips"><span class="label label-success">' + sportData.fatReduction[levle].tips + '</span></div>';
+            $('#' + levle).append(tips_html);
+        }
+    }
+    /**
+     * 手机模式菜单
+     */
+    $(".mobile-menu-trigger").click(function () {
+        if ($("#mobile-menu").hasClass('hide-nav')) {
+            setTimeout(function(){
+                $("#mobile-menu").removeClass('hide-nav').addClass('show-nav');
+            }, 100);
+
+        }else {
+            setTimeout(function(){
+                $("#mobile-menu").removeClass('show-nav').addClass('hide-nav');
+            }, 100);
+
+        }
+        return false;
+    });
+    $(".mobile-nav .btn-close").click(function () {
+        setTimeout(function(){
+            $("#mobile-menu").addClass('hide-nav');
+        }, 100);
+    });
+</script>
+</body>
+</html>

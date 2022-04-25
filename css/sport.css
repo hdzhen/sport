@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/**
+ * 运动页样式
+ */
+#header {
+    position: fixed;
+    top: 0;
+    height: 91px;
+    display: block;
+    padding: 25px 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #f3f3f3;
+    z-index: 9991;
+}
+.logo img {
+    position: absolute;
+    height: 60px;
+    margin-top: -6px;
+}
+.main-navigation {
+    width: 100%;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-navigation li {
+    display: inline-block;
+    margin: 0 0 0 30px;
+    font-size: 15px;
+    line-height: 40px;
+    color: #555555
+}
+.main-navigation li a:hover {
+     color: #e04d47;
+     text-decoration:none;
+}
+#top {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #5c5c5c;
+    padding: 0;
+    margin-top: 92px;
+}
+.content-section {
+    position: relative;
+    z-index: 10;
+    padding: 100px 0 90px 0;
+}
+.flexslider {
+    margin: 0;
+    background: none;
+    border: none;
+    position: relative;
+    zoom: 1;
+    padding: 0;
+}
+.section-overlay {
+    position: relative;
+    display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 100px 0 90px 0;
+}
+.slide-caption {
+    position: absolute;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 15% 0;
+    z-index: 100;
+}
+.flexslider .slides img {
+    z-index: 10;
+    width: 100%;
+    display: block;
+}
+
+.section-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dbdbdb;
+    margin: 0 0 30px 0;
+    width: 100%;
+}
+.section-title.left {
+    text-align: left;
+}
+.section-title.right {
+    text-align: right;
+}
+.split {
+    background-position: 100% 165px;
+}
+.split-1 {
+    background: url(../img/split/large_bg_image_1.jpg?1395266600) 50% 0 repeat-y fixed;
+}
+.content-section {
+    position: relative;
+    z-index: 10;
+    padding: 100px 0 90px 0;
+}
+.content-overlay {
+    padding: 0 !important;
+}
+
+.ul-wapper > .nav-tabs {
+    padding-left: 20px;
+    border-bottom: 0;
+}
+
+.ul-wapper > .nav-tabs > li > a {
+    font-size: 16px;
+    color: #333;
+}
+.ul-wapper > .nav-tabs > li > a:hover {
+    border-color: transparent;
+    background-color: transparent;
+    color: #000;
+}
+.ul-wapper > .nav-tabs > li.active > a {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 4px solid #e92322;
+}
+
+.tab-content {
+    padding: 20px 0;
+}
+.thumbnail .image-box {
+    height: 220px;
+    text-align: center;
+    overflow: hidden;
+}
+.thumbnail img {
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+}
+.thumbnail .tags {
+    margin-bottom: 5px;
+}
+.thumbnail span {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+.thumbnail p {
+    font-size: 14px;
+    margin-bottom:0;
+    text-indent:2em;
+}
+#fatReduction .nav li {
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 2px dashed #c0c0c0;
+    position: relative;
+    margin-right: 10px;
+}
+#fatReduction .nav li:after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+    position: absolute;
+    bottom: -5px;
+    right: -10px;
+}
+#fatReduction .nav li.active {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #e92322;
+}
+#fatReduction .nav li.active:after {
+    border-color: #e92322;
+}
+#fatReduction .nav li.active a,
+#fatReduction .nav li a:hover {
+    background-color: transparent;
+    border: 0;
+    color: #666;
+}
+.media span {
+    margin-left: 10px;
+    padding: 3px 15px;
+    font-size: 12px;
+}
+
+.tips {
+    border-top: 1px dashed #ccc;
+    padding-top: 15px;
+    margin: 20px 0;
+}
+.tips span {
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+footer span {
+    padding: 0 10px;
+    margin: 0;
+}
+footer span:last-child {
+    border-left: 1px solid #eee;
+}
+.mobile-menu-trigger {
+    position: absolute;
+    right: 10px;
+    display: block;
+    background-color: #e04d47;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+.mobile-menu-trigger span {
+    font-size: 15px;
+    line-height: 35px;
+    color: white;
+}
+
+.mobile-nav {
+    position: fixed;
+    left: 0;
+    width: 220px;
+    background: white;
+    z-index: 9999;
+    -webkit-transition: all .25s ease-out 0s;
+    transition: all .25s ease-out 0s;
+}
+.mobile-nav.show-nav {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    top: 0;
+}
+.mobile-nav.hide-nav {
+    -webkit-transform: translateX(-220px);
+    transform: translateX(-220px);
+    top: 0;
+}
+.mobile-nav ul {
+    border-bottom: 1px solid #dbdbdb;
+}
+.mobile-nav ul li a {
+    display: block;
+    padding: 1em 5%;
+    border-top: 1px solid #dbdbdb;
+    font-size: 15px;
+}
+.mobile-nav ul li a:hover {
+    color: #e04d47;
+    border-bottom: 1px solid #e04d47;
+    text-decoration:none;
+}
+
+.mobile-menu-close {
+    padding: 16px;
+    text-align: right;
+}
+
+.mobile-menu-close .btn-close {
+    color: #e04d47;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
