@@ -156,6 +156,11 @@
     margin-bottom:0;
     text-indent:2em;
 }
+
+#fitNess .thumbnail p {
+    min-height: 10em;
+}
+
 #fatReduction .nav li {
     padding: 15px 0;
     font-size: 18px;

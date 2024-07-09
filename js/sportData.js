@@ -5,7 +5,15 @@
 const sportData = {
     fitness: {
         monday: [
-			{
+            {
+                action: "深蹲",
+                image: "img/sport/035深蹲.gif",
+                position: "大腿",
+                count: "8",
+                times: "5",
+                content: "1. 开始时，将杠铃置于斜方肌顶端。胸部挺起，头部朝向正前方。两脚开立，与胯同宽，双脚指向外侧。2. 弯曲双膝降低身体，有节制的尽可能的向后推髋。这需要双膝向前移动。确保双膝与双脚呈一条直线。尽可能的保持躯干直立。3. 继续降低身体，保持重量集中于脚跟前部。当大腿与小腿相触时，反向运动，将杠铃向上运动。"
+            },
+            {
                 action: "上斜推举",
                 image: "img/sport/021上斜推举.gif",
                 position: "胸部",
@@ -40,16 +48,17 @@ const sportData = {
                 count: "10",
                 times: "3",
                 content: "卧在长凳上，两脚踏实，躯干成“桥形”，上背部和臀部触及凳面，两臂哑铃自然伸直于肩关节正上方，两手间距离略小于肩宽;两手持哑铃向体侧慢慢落下，下落过程中，肘间角度逐渐变小，到极限时，肘关节成100-120度角;胸大肌收缩，将哑铃沿原路升起，上升路线呈“弧形”，肘间角度逐渐加大，还原成预备姿势。"
-            }, {
-                action: "深蹲",
-                image: "img/sport/035深蹲.gif",
-                position: "大腿",
-                count: "8",
-                times: "5",
-                content: "1. 开始时，将杠铃置于斜方肌顶端。胸部挺起，头部朝向正前方。两脚开立，与胯同宽，双脚指向外侧。2. 弯曲双膝降低身体，有节制的尽可能的向后推髋。这需要双膝向前移动。确保双膝与双脚呈一条直线。尽可能的保持躯干直立。3. 继续降低身体，保持重量集中于脚跟前部。当大腿与小腿相触时，反向运动，将杠铃向上运动。"
             }
         ],
-        wednesday:[
+        wednesday: [
+            {
+                action: "卧推",
+                image: "img/sport/017卧推.gif",
+                position: "胸大肌",
+                count: "8",
+                times: "5",
+                content: "1.采用宽握距，使胸大肌获得充分伸展和彻底收缩；要求躯干和胸部向上挺起成桥形，两肩下沉，横杠放在胸上置乳头上1厘米处；当杠铃推起至两臂伸直时，必须使胸大肌处于“顶峰收缩”状态，稍停。2. 上推时用鼻子呼气，还原时用口吸气。注意事项： 3.不要把臀部和腰抬离凳子。 4.双脚的位置：两腿分开成45度角，平放在地上，可以有力支撑。"
+            },
             {
                 action: "推举",
                 image: "img/sport/011推举.gif",
@@ -85,16 +94,17 @@ const sportData = {
                 count: "10",
                 times: "4",
                 content: "俯立，屈肘持铃，上臂贴紧体侧，上体与地面平行。持铃手向后上方举起直至手臂完全伸直，再还原。"
-            }, {
-                action: "卧推",
-                image: "img/sport/017卧推.gif",
-                position: "胸大肌",
-                count: "8",
-                times: "5",
-                content: "1.采用宽握距，使胸大肌获得充分伸展和彻底收缩；要求躯干和胸部向上挺起成桥形，两肩下沉，横杠放在胸上置乳头上1厘米处；当杠铃推起至两臂伸直时，必须使胸大肌处于“顶峰收缩”状态，稍停。2. 上推时用鼻子呼气，还原时用口吸气。注意事项： 3.不要把臀部和腰抬离凳子。 4.双脚的位置：两腿分开成45度角，平放在地上，可以有力支撑。"
             }
         ],
         friday: [
+            {
+                action: "直腿硬拉",
+                image: "img/sport/037硬拉.gif",
+                position: "背部",
+                count: "8",
+                times: "5",
+                content: "双脚分开同肩宽站立，双手各握住一只哑铃置于大腿前侧。从你的腰部弯曲，在你朝地板降低杠铃时，要保持你的双膝伸直；重量应该保持在你双腿前方大约10厘米处。稍作暂停，然后伸展你的躯干返回至初始的站立位置。"
+            },
             {
                 action: "俯身双臂划船",
                 image: "img/sport/031俯身双臂划船.gif",
@@ -130,187 +140,180 @@ const sportData = {
                 count: "12",
                 times: "5",
                 content: "起始姿势将杠铃放在颈后肩上，两脚开立，脚掌站在垫木上，脚跟露在垫木外。收缩小腿肌肉群，使脚跟尽量提高，使腓肠肌彻底收紧。静止一秒钟，放下脚跟，重复再做。提起脚跟时吸气，放下时呼气。身体踮高时，前额要领先上提。下降时，脚跟要低于垫木面。"
-            }, {
-                action: "直腿硬拉",
-                image: "img/sport/037硬拉.gif",
-                position: "背部",
-                count: "8",
-                times: "5",
-                content: "双脚分开同肩宽站立，双手各握住一只哑铃置于大腿前侧。从你的腰部弯曲，在你朝地板降低杠铃时，要保持你的双膝伸直；重量应该保持在你双腿前方大约10厘米处。稍作暂停，然后伸展你的躯干返回至初始的站立位置。"
             }
         ]
     },
     fatReduction: {
         fireFatPrimary: {
-            items:[
+            items: [
                 {
-                    action:"向后弓箭步",
-                    count:"12",
-                    content:"中心向后，身体垂直地面，前后脚弯曲90°，收腹"
+                    action: "向后弓箭步",
+                    count: "12",
+                    content: "中心向后，身体垂直地面，前后脚弯曲90°，收腹"
                 }, {
-                    action:"体前屈",
-                    count:"12",
-                    content:"双手触耳，身体接近平行地面，收腹"
+                    action: "体前屈",
+                    count: "12",
+                    content: "双手触耳，身体接近平行地面，收腹"
                 }, {
-                    action:"深蹲",
-                    count:"12",
-                    content:"呈后坐式"
+                    action: "深蹲",
+                    count: "12",
+                    content: "呈后坐式"
                 }, {
-                    action:"开合跳",
-                    count:"20s",
-                    content:"轻盈跳"
+                    action: "开合跳",
+                    count: "20s",
+                    content: "轻盈跳"
                 }, {
-                    action:"屈腿两头起",
-                    count:"12",
-                    content:"背部全程贴地，下巴微收，起身双手抱退1s"
+                    action: "屈腿两头起",
+                    count: "12",
+                    content: "背部全程贴地，下巴微收，起身双手抱退1s"
                 }, {
-                    action:"简易俄罗斯转体",
-                    count:"12",
-                    content:"双脚触地，双手带动身体左右旋转"
+                    action: "简易俄罗斯转体",
+                    count: "12",
+                    content: "双脚触地，双手带动身体左右旋转"
                 }, {
-                    action:"仰卧举腿",
-                    count:"12",
-                    content:"背部全程贴地，双脚与腿呈90°，脚触地与收起呈90°"
+                    action: "仰卧举腿",
+                    count: "12",
+                    content: "背部全程贴地，双脚与腿呈90°，脚触地与收起呈90°"
                 }, {
-                    action:"四点支撑",
-                    count:"20s",
-                    content:"简易版平板支撑"
+                    action: "四点支撑",
+                    count: "20s",
+                    content: "简易版平板支撑"
                 }, {
-                    action:"向前弓箭步",
-                    count:"12",
-                    content:"同向后弓箭步"
+                    action: "向前弓箭步",
+                    count: "12",
+                    content: "同向后弓箭步"
                 }, {
-                    action:"深蹲",
-                    count:"12",
-                    content:"呈后坐式"
+                    action: "深蹲",
+                    count: "12",
+                    content: "呈后坐式"
                 }, {
-                    action:"侧移深蹲跳",
-                    count:"12",
-                    content:"深蹲向侧边来回跳起"
+                    action: "侧移深蹲跳",
+                    count: "12",
+                    content: "深蹲向侧边来回跳起"
                 }, {
-                    action:"原地起跳",
-                    count:"12",
-                    content:"深蹲后跳起"
+                    action: "原地起跳",
+                    count: "12",
+                    content: "深蹲后跳起"
                 }, {
-                    action:"直腿两头起",
-                    count:"12",
-                    content:"腿交替抬起，与双手接触1s"
+                    action: "直腿两头起",
+                    count: "12",
+                    content: "腿交替抬起，与双手接触1s"
                 }, {
-                    action:"俄罗斯转体",
-                    count:"12",
-                    content:"双脚离地"
+                    action: "俄罗斯转体",
+                    count: "12",
+                    content: "双脚离地"
                 }, {
-                    action:"直腿抬起",
-                    count:"12",
-                    content:"背部贴地，双腿与地面呈90°，收腿抬背向上升"
+                    action: "直腿抬起",
+                    count: "12",
+                    content: "背部贴地，双腿与地面呈90°，收腿抬背向上升"
                 }, {
-                    action:"四点支撑",
-                    count:"20s",
-                    content:"简易版平板支撑"
+                    action: "四点支撑",
+                    count: "20s",
+                    content: "简易版平板支撑"
                 }
             ]
         },
         fireFatIntermediate: {
-            items:[
+            items: [
                 {
-                    action:"勾腿跳",
-                    count:"20s",
-                    content:"原地跳"
+                    action: "勾腿跳",
+                    count: "20s",
+                    content: "原地跳"
                 }, {
-                    action:"深蹲",
-                    count:"12",
-                    content:"身直，后坐式"
+                    action: "深蹲",
+                    count: "12",
+                    content: "身直，后坐式"
                 }, {
-                    action:"改良版仰卧起坐",
-                    count:"12",
-                    content:"盘腿，脚掌贴合"
+                    action: "改良版仰卧起坐",
+                    count: "12",
+                    content: "盘腿，脚掌贴合"
                 }, {
-                    action:"俯卧撑",
-                    count:"12",
-                    content:"标准，慢速"
+                    action: "俯卧撑",
+                    count: "12",
+                    content: "标准，慢速"
                 }, {
-                    action:"平板支撑开合跳",
-                    count:"20s",
-                    content:"收紧核心，双脚开合跳"
+                    action: "平板支撑开合跳",
+                    count: "20s",
+                    content: "收紧核心，双脚开合跳"
                 }, {
-                    action:"波比跳",
-                    count:"12",
-                    content:"坚持"
+                    action: "波比跳",
+                    count: "12",
+                    content: "坚持"
                 }
             ],
-            tips:"↑ 重复三遍"
+            tips: "↑ 重复三遍"
         },
         abdominalExercise: {
-            items:[
+            items: [
                 {
-                    action:"摸膝卷腹",
-                    count:"30s",
-                    content:"【上腹肌】背部贴地，不用起高，下腹发力",
-					image:"img/sport/321.gif"
+                    action: "摸膝卷腹",
+                    count: "30s",
+                    content: "【上腹肌】背部贴地，不用起高，下腹发力",
+                    image: "img/sport/321.gif"
                 }, {
-                    action:"反向屈腿卷腹",
-                    count:"30s",
-                    content:"【下腹肌】紧贴地面，下腹发力",
-					image:"img/sport/322.gif"
+                    action: "反向屈腿卷腹",
+                    count: "30s",
+                    content: "【下腹肌】紧贴地面，下腹发力",
+                    image: "img/sport/322.gif"
                 }, {
-                    action:"左右触脚",
-                    count:"30s",
-                    content:"【腰部两侧】倾向一侧时停留片刻",
-					image:"img/sport/323.gif"
+                    action: "左右触脚",
+                    count: "30s",
+                    content: "【腰部两侧】倾向一侧时停留片刻",
+                    image: "img/sport/323.gif"
                 }, {
-                    action:"仰卧提膝",
-                    count:"30s",
-                    content:"【下腹肌】紧贴地面，下腹发力，将双腿抬起",
-					image:"img/sport/324.gif"
+                    action: "仰卧提膝",
+                    count: "30s",
+                    content: "【下腹肌】紧贴地面，下腹发力，将双腿抬起",
+                    image: "img/sport/324.gif"
                 }, {
-                    action:"空中登车",
-                    count:"30s",
-                    content:"【腹斜肌】腹斜肌发力，胳膊肘交替的去触碰膝盖",
-					image:"img/sport/325.gif"
+                    action: "空中登车",
+                    count: "30s",
+                    content: "【腹斜肌】腹斜肌发力，胳膊肘交替的去触碰膝盖",
+                    image: "img/sport/325.gif"
                 }
             ],
-            tips:"间隔15S"
+            tips: "间隔15S"
         },
         pushUp: {
-            items:[
+            items: [
                 {
-                    action:"俯卧撑训练计划",
-                    count:"3次/周",
-                    content:"1、挺胸收腹，躯干与腿部保持一条直线。2、手臂自然伸直垂直于地面。3、双手与肩同宽，始终保持腰背挺直，控制肘部紧贴身体两侧",
-                    image:"img/sport/331俯卧撑.gif"
+                    action: "俯卧撑训练计划",
+                    count: "3次/周",
+                    content: "1、挺胸收腹，躯干与腿部保持一条直线。2、手臂自然伸直垂直于地面。3、双手与肩同宽，始终保持腰背挺直，控制肘部紧贴身体两侧",
+                    image: "img/sport/331俯卧撑.gif"
                 }, {
-                    action:"第一周",
-                    count:"1~2min",
-                    content:"20-20-15-15 | 20-20-20-10 | 20-20-20-10",
+                    action: "第一周",
+                    count: "1~2min",
+                    content: "20-20-15-15 | 20-20-20-10 | 20-20-20-10",
                 }, {
-                    action:"第二周",
-                    count:"1~2min",
-                    content:"20-20-15-15 | 25-25-20 | 25-25-20",
+                    action: "第二周",
+                    count: "1~2min",
+                    content: "20-20-15-15 | 25-25-20 | 25-25-20",
                 }, {
-                    action:"第三周",
-                    count:"1~2min",
-                    content:"30-20-20 | 35-20-15 | 30-25-15",
+                    action: "第三周",
+                    count: "1~2min",
+                    content: "30-20-20 | 35-20-15 | 30-25-15",
                 }, {
-                    action:"第四周",
-                    count:"1~2min",
-                    content:"40-20-10 | 40-30 | 40-30",
+                    action: "第四周",
+                    count: "1~2min",
+                    content: "40-20-10 | 40-30 | 40-30",
                 }, {
-                    action:"第五周",
-                    count:"1~2min",
-                    content:"45-15-10 | 45-25 | 45-25",
+                    action: "第五周",
+                    count: "1~2min",
+                    content: "45-15-10 | 45-25 | 45-25",
                 }
             ]
         },
         horizontalDown: {
-            items:[
+            items: [
                 {
-                    action:"单杠悬垂训练计划",
-                    count:"4组/天",
-                    content:"双手握住单杠保持悬空的姿势不动",
-                    image:"img/sport/341.gif"
+                    action: "单杠悬垂训练计划",
+                    count: "4组/天",
+                    content: "双手握住单杠保持悬空的姿势不动",
+                    image: "img/sport/341.gif"
                 }
             ],
-            tips:"起步20S，每周加10S"
+            tips: "起步20S，每周加10S"
         }
     }
 }
