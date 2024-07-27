@@ -114,10 +114,11 @@
             </div>
             <div class="col-md-2">
                 <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation" class="active"><a href="#fireFatIntermediate" data-toggle="tab" role="tab">燃脂运动(综合)</a></li>
                     <li role="presentation"><a href="#fireFatPrimary" data-toggle="tab" role="tab">燃脂运动(初级)</a></li>
-                    <li role="presentation" class="active"><a href="#fireFatIntermediate" data-toggle="tab" role="tab">燃脂运动(中级)</a></li>
                     <li role="presentation"><a href="#abdominalExercise" data-toggle="tab" role="tab">腹部锻炼</a></li>
                     <li role="presentation"><a href="#pushUp" data-toggle="tab" role="tab">俯卧撑</a></li>
+                    <li role="presentation"><a href="#horizontalDown" data-toggle="tab" role="tab">单杠悬垂</a></li>
                 </ul>
             </div>
             <div class="col-md-10">
@@ -126,6 +127,7 @@
                     <div role="tabpanel" class="tab-pane fade in active" id="fireFatIntermediate"></div>
                     <div role="tabpanel" class="tab-pane fade" id="abdominalExercise"></div>
                     <div role="tabpanel" class="tab-pane fade" id="pushUp"></div>
+                    <div role="tabpanel" class="tab-pane fade" id="horizontalDown"></div>
                 </div>
             </div>
         </div>
@@ -242,28 +244,28 @@
     /**
      * 加载健身数据
      */
-    for (var day in sportData.fitness) {
-        for (var i = 0; i < sportData.fitness[day].length; i++) {
-            var sport = sportData.fitness[day][i]
-            var fitNess_html = '<div class="col-sm-6 col-md-4"><div class="thumbnail"><div class="image-box"><img src="' + sport.image + '" alt="' + sport.action + '" title="点击放大"></div><div class="caption"><h3>' + sport.action + '</h3><div class="tags btn-group"><span class="label label-danger">' + sport.position + '</span><span class="label label-primary">' + sport.count + '个</span><span class="label label-success">' + sport.times + '组</span></div><p>' + sport.content + '</p></div></div></div>';
+    for (let day in sportData.fitness) {
+        for (let i = 0; i < sportData.fitness[day].length; i++) {
+            let sport = sportData.fitness[day][i]
+            let fitNess_html = '<div class="col-sm-6 col-md-4"><div class="thumbnail"><div class="image-box"><img src="' + sport.image + '" alt="' + sport.action + '" title="点击放大" loading="lazy"></div><div class="caption"><h3>' + sport.action + '</h3><div class="tags btn-group"><span class="label label-danger">' + sport.position + '</span><span class="label label-primary">' + sport.count + '个</span><span class="label label-success">' + sport.times + '组</span></div><p>' + sport.content + '</p></div></div></div>';
             $('#' + day).append(fitNess_html);
         }
     }
     /**
      * 加载燃脂数据
      */
-    for (var levle in sportData.fatReduction) {
-        for (var j = 0; j < sportData.fatReduction[levle].items.length; j++) {
-            var action = sportData.fatReduction[levle].items[j]
-            var imgHtml = '';
+    for (let levle in sportData.fatReduction) {
+        for (let j = 0; j < sportData.fatReduction[levle].items.length; j++) {
+            let action = sportData.fatReduction[levle].items[j]
+            let imgHtml = '';
             if (action.image != undefined) {
-                imgHtml = '<img src="' + action.image + '" alt="' + action.action + '" title="点击放大">';
+                imgHtml = '<img src="' + action.image + '" alt="' + action.action + '" title="点击放大" loading="lazy">';
             }
-            var action_html = '<div class="media"><div class="media-body"><h4 class="media-heading">' + action.action + '<span class="label label-primary">' + action.count + '</span></h4><p>' + action.content + '</p>' + imgHtml + '</div></div>';
+            let action_html = '<div class="media"><div class="media-body"><h4 class="media-heading">' + action.action + '<span class="label label-primary">' + action.count + '</span></h4><p>' + action.content + '</p>' + imgHtml + '</div></div>';
             $('#' + levle).append(action_html);
         }
         if (sportData.fatReduction[levle].tips) {
-            var tips_html = ' <div class="tips"><span class="label label-success">' + sportData.fatReduction[levle].tips + '</span></div>';
+            let tips_html = ' <div class="tips"><span class="label label-success">' + sportData.fatReduction[levle].tips + '</span></div>';
             $('#' + levle).append(tips_html);
         }
     }
